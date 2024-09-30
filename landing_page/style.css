@@ -1,0 +1,168 @@
+/* Reset default styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header styling */
+header {
+    background-color: #004d99;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* Features section */
+.features {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.features .feature {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.features h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 16px;
+}
+
+/* About section */
+.about {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Contact section */
+.contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 12px 25px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer styling */
+footer {
+    background-color: #004d99;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
