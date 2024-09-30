@@ -1,0 +1,152 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Blackout Animation */
+.blackout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1000;
+    opacity: 1;
+    animation: blackout 1s ease-out forwards;
+}
+
+@keyframes blackout {
+    0% { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Section Titles */
+section h2 {
+    text-align: center;
+    color: #00ff00;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* About Section Styling */
+#about img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #00ff00;
+    transition: transform 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+/* Skills Section Styling */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#skills li {
+    background: #00ff00;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#skills li:hover {
+    background: #00cc00;
+}
+
+/* Projects Section Styling */
+.project {
+    background: #444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #00ff00;
+}
+
+.project p {
+    color: #ddd;
+}
+
+/* Resume Button Styling */
+#resume a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #00ff00;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#resume a:hover {
+    background: #00cc00;
+}
+
+/* Contact Section */
+#contact a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+apps-fileview.texmex_20240903.04_p0
+style.css
+Displaying style.css.
